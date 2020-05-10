@@ -1,0 +1,8 @@
+
+class android.app.Notification {
+  argument pendingIntent3 = 3: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.app.Notification: void setLatestEventInfo(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+}

@@ -1,0 +1,8 @@
+
+class android.nfc.NfcAdapter {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.nfc.NfcAdapter: void enableForegroundDispatch(android.app.Activity,android.app.PendingIntent,android.content.IntentFilter[],java.lang.String[][])> {
+    argument pendingIntent1;
+  }
+}

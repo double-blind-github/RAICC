@@ -1,0 +1,8 @@
+
+class android.companion.CompanionDeviceManager$Callback {
+  argument intentSender0 = 0: type android.content.IntentSender, prop "valueType": "intentSender";
+
+  query <android.companion.CompanionDeviceManager$Callback: void onDeviceFound(android.content.IntentSender)> {
+    argument intentSender0;
+  }
+}

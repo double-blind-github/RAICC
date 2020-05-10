@@ -1,0 +1,67 @@
+
+
+
+class android.content.IntentFilter {
+  Set<String> actions;
+  Set<String> categories;
+  Set<String> dataType;
+  Set<authority> authorities;
+  Set<path> paths;
+  Set<String> schemes;
+  int priority;
+
+  copy <android.content.IntentFilter: void <init>(android.content.IntentFilter)> {
+    0;
+  }
+  argument replaceActions = 0: replaceAll actions;
+  mod <android.content.IntentFilter: void <init>(java.lang.String)> {
+    argument replaceActions;
+  }
+  mod <android.content.IntentFilter: void <init>(java.lang.String,java.lang.String)> {
+    argument replaceActions;
+    1: replaceAll dataType;
+  }
+  mod <android.content.IntentFilter: void addAction(java.lang.String)> {
+    0: add actions;
+  }
+  mod <android.content.IntentFilter: void addCategory(java.lang.String)> {
+    0: add categories;
+  }
+  mod <android.content.IntentFilter: void addDataAuthority(java.lang.String,java.lang.String)> {
+    (0, 1): add authorities;
+  }
+  mod <android.content.IntentFilter: void addDataPath(java.lang.String,int)> {
+    (0, 1): add paths;
+  }
+  mod <android.content.IntentFilter: void addDataScheme(java.lang.String)> {
+    0: add schemes;
+  }
+  mod <android.content.IntentFilter: void addDataType(java.lang.String)> {
+    0: add dataType;
+  }
+  mod <android.content.IntentFilter: void setPriority(int)> {
+    0: replace priority;
+  }
+
+  mod gen <android.content.IntentFilter: android.content.IntentFilter create(java.lang.String,java.lang.String)> {
+    0: add actions;
+    1: replaceAll dataType;
+  }
+
+  source <android.content.IntentFilter: int getPriority()> {
+    priority;
+  }
+
+  super context = android.content.Context;
+  argument type0 = 0: type classType, prop "valueType": "receiverType";
+  argument intent1 = 1: type android.content.IntentFilter, prop "valueType": "intentFilter";
+  query context : android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter) {
+    argument type0;
+    argument intent1;
+  }
+  query context : android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler) {
+    argument type0;
+    argument intent1;
+    2: type String, prop "valueType": "permission";
+  }
+}

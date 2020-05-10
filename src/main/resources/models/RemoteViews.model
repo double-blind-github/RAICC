@@ -1,0 +1,13 @@
+
+
+class android.widget.RemoteViews {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.widget.RemoteViews: void setOnClickPendingIntent(int,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+  
+  query <android.widget.RemoteViews: void setPendingIntentTemplate(int,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+}

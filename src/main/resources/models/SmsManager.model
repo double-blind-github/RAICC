@@ -1,0 +1,39 @@
+
+class android.telephony.SmsManager {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent3 = 3: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent4 = 4: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.telephony.SmsManager: java.lang.String createAppSpecificSmsTokenWithPackageInfo(java.lang.String,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+  
+  query <android.telephony.SmsManager: void downloadMultimediaMessage(android.content.Context,java.lang.String,android.net.Uri,android.os.Bundle,android.app.PendingIntent)> {
+    argument pendingIntent4;
+  }
+  
+  query <android.telephony.SmsManager: void injectSmsPdu(byte[],java.lang.String,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.telephony.SmsManager: void sendDataMessage(java.lang.String,java.lang.String,short,byte[],android.app.PendingIntent,android.app.PendingIntent)> {
+    argument pendingIntent4;
+  }
+  
+  query <android.telephony.SmsManager: void sendMultimediaMessage(android.content.Context,android.net.Uri,java.lang.String,android.os.Bundle,android.app.PendingIntent)> {
+    argument pendingIntent4;
+  }
+  
+  query <android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+  
+  query <android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+  
+  query <android.telephony.SmsManager: void sendTextMessageWithoutPersisting(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+}

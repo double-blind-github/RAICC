@@ -1,0 +1,13 @@
+
+
+class com.google.vr.ndk.base.DaydreamApi {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <com.google.vr.ndk.base.DaydreamApi: void launchInVr(android.app.Activity,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+  
+  query <com.google.vr.ndk.base.DaydreamApi: void launchInVrForResult(android.app.Activity,android.app.PendingIntent,int)> {
+    argument pendingIntent1;
+  }
+}

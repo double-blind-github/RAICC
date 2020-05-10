@@ -1,0 +1,9 @@
+
+
+class android.bluetooth.le.BluetoothLeScanner {
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.bluetooth.le.BluetoothLeScanner: int startScan(java.util.List,android.bluetooth.le.ScanSettings,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+}

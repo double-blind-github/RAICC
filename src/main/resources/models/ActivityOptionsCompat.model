@@ -1,0 +1,9 @@
+
+
+class android.support.v4.app.ActivityOptionsCompat {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.support.v4.app.ActivityOptionsCompat: void requestUsageTimeReport(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

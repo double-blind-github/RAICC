@@ -1,0 +1,8 @@
+
+class android.app.FragmentHostCallback {
+  argument intentSender1 = 1: type android.content.IntentSender, prop "valueType": "intentSender";
+
+  query <android.app.FragmentHostCallback: void onStartIntentSenderFromFragment(android.app.Fragment,android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)> {
+    argument intentSender1;
+  }
+}

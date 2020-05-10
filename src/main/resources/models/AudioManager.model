@@ -1,0 +1,9 @@
+
+
+class android.media.AudioManager {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.media.AudioManager: void registerMediaButtonEventReceiver(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

@@ -1,0 +1,9 @@
+
+
+class android.support.v4.media.app.NotificationCompat$MediaStyle {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.support.v4.media.app.NotificationCompat$MediaStyle: android.support.v4.media.app.NotificationCompat$MediaStyle setCancelButtonIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

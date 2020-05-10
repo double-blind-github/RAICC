@@ -1,0 +1,23 @@
+
+
+class android.telephony.euicc.EuiccManager {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent3 = 3: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.telephony.euicc.EuiccManager: void downloadSubscription(android.telephony.euicc.DownloadableSubscription,boolean,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.telephony.euicc.EuiccManager: void startResolutionActivity(android.app.Activity,int,android.content.Intent,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+  
+  query <android.telephony.euicc.EuiccManager: void switchToSubscription(int,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+  
+  query <android.telephony.euicc.EuiccManager: void updateSubscriptionNickname(int,java.lang.String,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+}

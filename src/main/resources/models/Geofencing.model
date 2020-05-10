@@ -1,0 +1,8 @@
+
+class com.google.android.gms.location.GeofencingApi {
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <com.google.android.gms.location.GeofencingApi: com.google.android.gms.common.api.PendingResult addGeofences(com.google.android.gms.common.api.GoogleApiClient,java.util.List,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+}

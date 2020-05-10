@@ -1,0 +1,23 @@
+
+
+class android.content.pm.PackageInstaller {
+  argument intentSender0 = 0: type android.content.IntentSender, prop "valueType": "intentSender";
+  argument intentSender1 = 1: type android.content.IntentSender, prop "valueType": "intentSender";
+  argument intentSender2 = 2: type android.content.IntentSender, prop "valueType": "intentSender";
+
+  query <android.content.pm.PackageInstaller$Session: void commit(android.content.IntentSender)> {
+    argument intentSender0;
+  }
+  
+  query <android.content.pm.PackageInstaller: void installExistingPackage(java.lang.String,int,android.content.IntentSender)> {
+    argument intentSender2;
+  }
+  
+  query <android.content.pm.PackageInstaller: void uninstall(android.content.pm.VersionedPackage,android.content.IntentSender)> {
+    argument intentSender1;
+  }
+  
+  query <android.content.pm.PackageInstaller: void uninstall(java.lang.String,android.content.IntentSender)> {
+    argument intentSender1;
+  }
+}

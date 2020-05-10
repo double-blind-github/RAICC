@@ -1,0 +1,8 @@
+
+class android.app.ActivityOptions {
+  argument pendingIntent = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  
+  query <android.app.ActivityOptions: void requestUsageTimeReport(android.app.PendingIntent)> {
+    argument pendingIntent;
+  }
+}

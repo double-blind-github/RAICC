@@ -1,0 +1,29 @@
+
+
+class android.app.Notification$BubbleMetadata$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.app.Notification$BubbleMetadata$Builder: android.app.Notification$BubbleMetadata$Builder setDeleteIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$BubbleMetadata$Builder: androidx.core.app.NotificationCompat$BubbleMetadata$Builder setDeleteIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.app.Notification$BubbleMetadata$Builder: android.app.Notification$BubbleMetadata$Builder setIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$BubbleMetadata$Builder: androidx.core.app.NotificationCompat$BubbleMetadata$Builder setIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$BubbleMetadata: void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$BubbleMetadata: void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int,androidx.core.app.NotificationCompat$1)> {
+    argument pendingIntent0;
+  }
+}

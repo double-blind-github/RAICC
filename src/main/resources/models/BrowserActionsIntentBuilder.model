@@ -1,0 +1,13 @@
+
+class androidx.browser.browseractions.BrowserActionsIntent$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <androidx.browser.browseractions.BrowserActionsIntent$Builder: androidx.browser.browseractions.BrowserActionsIntent$Builder setOnItemSelectedAction(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.browser.browseractions.BrowserActionItem: void <init>(java.lang.String,android.app.PendingIntent,int)> {
+    argument pendingIntent2;
+  }
+}

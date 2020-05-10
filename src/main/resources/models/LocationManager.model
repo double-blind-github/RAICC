@@ -1,0 +1,27 @@
+
+
+class android.location.LocationManager {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent3 = 3: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent4 = 4: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.location.LocationManager: void addProximityAlert(double,double,float,long,android.app.PendingIntent)> {
+    argument pendingIntent4;
+  }
+  
+  query <android.location.LocationManager: void requestLocationUpdates(java.lang.String,long,float,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+  
+  query <android.location.LocationManager: void requestLocationUpdates(long,float,android.location.Criteria,android.app.PendingIntent)> {
+    argument pendingIntent3;
+  }
+  
+  query <android.location.LocationManager: void requestSingleUpdate(android.location.Criteria,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+  
+  query <android.location.LocationManager: void requestSingleUpdate(java.lang.String,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+}

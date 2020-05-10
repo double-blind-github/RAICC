@@ -1,0 +1,12 @@
+
+class android.net.ConnectivityManager {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.net.ConnectivityManager: void registerNetworkCallback(android.net.NetworkRequest,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+  
+  query <android.net.ConnectivityManager: void requestNetwork(android.net.NetworkRequest,android.app.PendingIntent)> {
+    argument pendingIntent1;
+  }
+}

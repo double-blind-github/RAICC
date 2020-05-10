@@ -1,0 +1,9 @@
+
+
+class android.print.PrinterInfo$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.print.PrinterInfo$Builder: android.print.PrinterInfo$Builder setInfoIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

@@ -1,0 +1,9 @@
+
+
+class android.service.autofill.SaveCallback {
+  argument intentSender0 = 0: type android.content.IntentSender, prop "valueType": "intentSender";
+
+  query <android.service.autofill.SaveCallback: void onSuccess(android.content.IntentSender)> {
+    argument intentSender0;
+  }
+}

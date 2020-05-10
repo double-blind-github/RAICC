@@ -1,0 +1,85 @@
+
+class android.app.Notification$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.app.Notification$Builder: android.app.Notification$Builder addAction(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder addAction(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Builder: androidx.core.app.NotificationCompat$Builder addAction(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.app.Notification$Builder: android.app.Notification$Builder setDeleteIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.app.Notification$Builder: android.app.Notification$Builder setFullScreenIntent(android.app.PendingIntent,boolean)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setFullScreenIntent(android.app.PendingIntent,boolean)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Builder: androidx.core.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Builder: androidx.core.app.NotificationCompat$Builder setDeleteIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.app.Notification$Action$Builder: void <init>(android.graphics.drawable.Icon,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.app.Notification$Action$Builder: void <init>(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.support.v4.app.NotificationCompat$Action$Builder: void <init>(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <android.support.v4.app.NotificationCompat$Action: void <init>(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action$Builder: void <init>(androidx.core.graphics.drawable.IconCompat,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],boolean,int,boolean,boolean)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action$Builder: void <init>(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action$Builder: void <init>(int,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],boolean,int,boolean)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action$Builder: void <init>(int,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],boolean,int,boolean,boolean)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action: void <init>(androidx.core.graphics.drawable.IconCompat,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],androidx.core.app.RemoteInput[],boolean,int,boolean,boolean)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action: void <init>(int,java.lang.CharSequence,android.app.PendingIntent)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action: void <init>(int,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],androidx.core.app.RemoteInput[],boolean,int,boolean)> {
+    argument pendingIntent2;
+  }
+  
+  query <androidx.core.app.NotificationCompat$Action: void <init>(int,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],androidx.core.app.RemoteInput[],boolean,int,boolean,boolean)> {
+    argument pendingIntent2;
+  }
+}

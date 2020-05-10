@@ -1,0 +1,8 @@
+
+class com.google.android.vending.expansion.downloader.DownloaderClientMarshaller {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <com.google.android.vending.expansion.downloader.DownloaderClientMarshaller: int startDownloadServiceIfRequired(android.content.Context,android.app.PendingIntent,java.lang.Class)> {
+    argument pendingIntent1;
+  }
+}

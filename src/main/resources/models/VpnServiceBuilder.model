@@ -1,0 +1,9 @@
+
+
+class android.net.VpnService$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.net.VpnService$Builder: android.net.VpnService$Builder setConfigureIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

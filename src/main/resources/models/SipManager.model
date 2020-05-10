@@ -1,0 +1,9 @@
+
+
+class android.net.sip.SipManager {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.net.sip.SipManager: void open(android.net.sip.SipProfile,android.app.PendingIntent,android.net.sip.SipRegistrationListener)> {
+    argument pendingIntent1;
+  }
+}

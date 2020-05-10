@@ -1,0 +1,18 @@
+
+
+class android.app.Notification$CarExtender$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+  argument pendingIntent2 = 2: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.app.Notification$CarExtender$Builder: android.app.Notification$CarExtender$Builder setReadPendingIntent(android.app.PendingIntent)> {
+    argument pendingIntent0 ;
+  }
+  
+  query <android.app.Notification$CarExtender$Builder: android.app.Notification$CarExtender$Builder setReplyAction(android.app.PendingIntent,android.app.RemoteInput)> {
+    argument pendingIntent0;
+  }
+  
+  query <androidx.core.app.NotificationCompat$CarExtender$UnreadConversation: void <init>(java.lang.String[],androidx.core.app.RemoteInput,android.app.PendingIntent,android.app.PendingIntent,java.lang.String[],long)>{
+    argument pendingIntent2;
+  }
+}

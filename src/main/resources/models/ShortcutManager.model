@@ -1,0 +1,9 @@
+
+
+class androidx.core.content.pm.ShortcutManagerCompat {
+  argument intentSender1 = 1: type android.content.IntentSender, prop "valueType": "intentSender";
+
+  query <androidx.core.content.pm.ShortcutManagerCompat: boolean requestPinShortcut(android.content.pm.ShortcutInfo,android.content.IntentSender)> {
+    argument intentSender1;
+  }
+}

@@ -1,0 +1,9 @@
+
+
+class com.google.android.gms.location.LocationClient {
+  argument pendingIntent1 = 1: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <com.google.android.gms.location.LocationClient: void addGeofences(java.util.List,android.app.PendingIntent,com.google.android.gms.location.LocationClient$OnAddGeofencesResultListener)> {
+    argument pendingIntent1;
+  }
+}

@@ -1,0 +1,35 @@
+
+
+
+class android.content.ComponentName {
+  String clazz;
+  String package;
+
+  copy <android.content.ComponentName: void <init>(android.content.ComponentName)> {
+    0;
+  }
+  argument clazzString1 = 1: replace clazz;
+  mod <android.content.ComponentName: void <init>(java.lang.String,java.lang.String)> {
+    0: replace package;
+    argument clazzString1;
+  }
+  argument packageContext0 = 0: replace package, type context;
+  mod <android.content.ComponentName: void <init>(android.content.Context,java.lang.String)> {
+    argument packageContext0;
+    argument clazzString1;
+  }
+  mod <android.content.ComponentName: void <init>(android.content.Context,java.lang.Class)> {
+    argument packageContext0;
+    1: replace clazz, type Class;
+  }
+
+  source <android.content.ComponentName: java.lang.String getClassName()> {
+    clazz;
+  }
+  source <android.content.ComponentName: java.lang.String getPackageName()> {
+    package;
+  }
+  source <android.content.ComponentName: java.lang.String getShortClassName()> {
+    clazz;
+  }
+}

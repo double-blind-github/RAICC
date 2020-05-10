@@ -1,0 +1,9 @@
+
+
+class android.app.slice.Slice$Builder {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.app.slice.Slice$Builder: android.app.slice.Slice$Builder addAction(android.app.PendingIntent,android.app.slice.Slice,java.lang.String)> {
+    argument pendingIntent0;
+  }
+}

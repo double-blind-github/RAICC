@@ -1,0 +1,9 @@
+
+
+class android.app.Notification$WearableExtender {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.app.Notification$WearableExtender: android.app.Notification$WearableExtender setDisplayIntent(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

@@ -1,0 +1,20 @@
+
+class android.media.session.MediaSession {
+  argument pendingIntent0 = 0: type android.app.PendingIntent, prop "valueType": "pendingIntent";
+
+  query <android.media.session.MediaSession: void setMediaButtonReceiver(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.support.v4.media.session.MediaSessionCompat: void setMediaButtonReceiver(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.media.session.MediaSession: void setSessionActivity(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+  
+  query <android.support.v4.media.session.MediaSessionCompat: void setSessionActivity(android.app.PendingIntent)> {
+    argument pendingIntent0;
+  }
+}

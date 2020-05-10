@@ -1,0 +1,14 @@
+
+
+class android.service.autofill.FillResponse$Builder {
+  argument intentSender0 = 0: type android.content.IntentSender, prop "valueType": "intentSender";
+  argument intentSender1 = 1: type android.content.IntentSender, prop "valueType": "intentSender";
+
+  query <android.service.autofill.FillResponse$Builder: android.service.autofill.FillResponse$Builder setAuthentication(android.content.IntentSender)> {
+    argument intentSender0;
+  }
+  
+  query <android.service.autofill.FillResponse$Builder: android.service.autofill.FillResponse$Builder setAuthentication(android.view.autofill.AutofillId[],android.content.IntentSender,android.widget.RemoteViews)> {
+    argument intentSender1;
+  }
+}
