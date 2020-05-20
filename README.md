@@ -4,6 +4,10 @@ Reveal Atypical Inter-Component Communication
 FOR REVIEWERS: 
  * For the sake of the double-blind-review process, this source code is not compilable
 
+## Definition
+
+We define an atypical ICC method (AICC method) as a method allowing to perform an inter-component communication while it is not its primary purpose.
+
 ## Getting started
 
 ### Using the tool
